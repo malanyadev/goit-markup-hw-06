@@ -55,6 +55,8 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+   display: flex;
+   justify-content: center;
 }
 
 .container-link-address {
@@ -136,6 +138,12 @@ img {
   color: #404bbf;
 }
 
+@media screen and (min-width:768px){ 
+  .container{
+    width: 768px;
+  } 
+}
+
 /* menu-btn-phone */
 
 .menu-btn {
@@ -145,6 +153,7 @@ img {
   background-color: transparent;
   cursor: pointer;
   line-height: 0; 
+  margin-left: 80px;
 }
 
 /* modal-menu-phone */
@@ -254,13 +263,7 @@ color: #434455;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
-  
 }
-
-
-
-
-
 
 /* nav style */
 .nav-links .link {
