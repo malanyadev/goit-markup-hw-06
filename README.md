@@ -1,2 +1,2 @@
 ##About
- https://malanyadev.github.io/goit-markup-hw-05/
+https://malanyadev.github.io/goit-markup-hw-06/
